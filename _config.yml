@@ -1,0 +1,64 @@
+# Site
+name: "MOROPS"
+title: "MOROPS"
+description: " is a blog that focuses on Open Source in general and Linux in particular"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: '/mediumish-theme-jekyll'
+google_analytics: 'UA-241831497-1'
+disqus: 'morops'
+mailchimp-list: 'https://mailchi.mp/be50f5a69c15/morops'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  abdel:
+    name: Abdelali
+    display_name: Abdelali
+    gravatar: eefcb5b065c5b8cb7d341318ed885785
+    email: abdelali.dousbah@outlook.com
+    web: https://www.dousbah.ml
+    twitter: https://twitter.com/
+    description: "Founder of MOROPS, System Engineer, Technology addict, Linux enthusiast, Also a proud Moroccan :)"
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "enabled"
+adsense-data-ad-client: "ca-pub-7748782016028432"
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
