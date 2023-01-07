@@ -4,7 +4,7 @@ title: "MOROPS"
 description: " is a blog that focuses on Open Source in general and Linux in particular"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/mediumish-theme-jekyll'
+baseurl: 'morops.ml'
 google_analytics: 'UA-241831497-1'
 disqus: 'morops'
 mailchimp-list: 'https://mailchi.mp/be50f5a69c15/morops'
