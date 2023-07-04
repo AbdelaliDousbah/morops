@@ -30,9 +30,9 @@ comments: false
 <div class="sticky-top sticky-top-80">
 <h5>Buy me a coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">MOROPS <i class="fab fa-blogger"></i></a>.</p>
+<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://dousbah.ml">MOROPS <i class="fab fa-blogger"></i></a>.</p>
 
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://dousbah.ml" class="btn btn-warning">My personal website</a>
+<a target="_blank" href="" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://dousbah.ml" class="btn btn-warning">My personal website</a>
 
 </div>
 </div>
